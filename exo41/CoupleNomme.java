@@ -7,8 +7,8 @@ public class CoupleNomme<T> extends Couple<T>{
     this.nom = nom;
   }
   @Override
-  public void afficher(){
+  public void affiche(){
     System.out.println("nom : " + nom);
-    super.afficher();
+    super.affiche();
   }
 }
