@@ -6,7 +6,7 @@ public class Exo1{
     return tableau[(int)(Math.random() * (tableau.length - 1))];
   }
 
-  public static <T> alea(T un, T deux){
+  public static <T> T alea(T un, T deux){
     return Math.random() > 0.5? un: deux;
   }
 
